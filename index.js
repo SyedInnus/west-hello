@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 var mysql = require('mysql');
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello Node west Loction!\n'
+  const msg = 'Hello Node west Loction!!!\n'
   res.end(msg);
   // create a connection variable with the details required
 var con = mysql.createConnection({
